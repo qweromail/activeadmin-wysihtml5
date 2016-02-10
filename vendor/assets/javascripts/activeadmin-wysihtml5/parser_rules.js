@@ -105,7 +105,8 @@ var wysihtml5ParserRules = {
     "tr": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "strike": {
       "remove": 1
@@ -257,7 +258,8 @@ var wysihtml5ParserRules = {
       },
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "object": {
       "remove": 1
@@ -300,7 +302,9 @@ var wysihtml5ParserRules = {
     "input": {
       "remove": 1
     },
-    "table": {},
+    "table": {
+      "allow_attributes": [ "style" ]
+    },
     "keygen": {
       "remove": 1
     },
