@@ -131,7 +131,8 @@ var wysihtml5ParserRules = {
     "h4": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "em": {},
     "title": {
@@ -198,7 +199,7 @@ var wysihtml5ParserRules = {
         "width": "numbers",
         "height": "numbers"
       },
-      "allow_attributes": [ "alt", "title", "src", "class" ]
+      "allow_attributes": [ "alt", "title", "src", "class", "style" ]
     },
     "rb": {
       "rename_tag": "span"
@@ -231,7 +232,8 @@ var wysihtml5ParserRules = {
     "h1": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "head": {
       "remove": 1
@@ -305,7 +307,8 @@ var wysihtml5ParserRules = {
     "h5": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "meta": {
       "remove": 1
@@ -399,9 +402,6 @@ var wysihtml5ParserRules = {
         "cite": "url"
       }
     },
-    "style": {
-      "remove": 1
-    },
     "device": {
       "remove": 1
     },
@@ -411,7 +411,8 @@ var wysihtml5ParserRules = {
     "h3": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "textarea": {
       "rename_tag": "span"
@@ -451,7 +452,8 @@ var wysihtml5ParserRules = {
     "h6": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "param": {
       "remove": 1
@@ -529,7 +531,8 @@ var wysihtml5ParserRules = {
     "h2": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "ins": {
       "rename_tag": "span"
@@ -537,7 +540,8 @@ var wysihtml5ParserRules = {
     "p": {
       "add_class": {
         "align": "align_text"
-      }
+      },
+      "allow_attributes": [ "style" ]
     },
     "sub": {
       "rename_tag": "span"
